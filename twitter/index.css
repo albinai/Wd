@@ -1,0 +1,75 @@
+            body{
+                font-family: "Segoe UI",Arial,sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .split {
+                height: 100%;
+                width: 50%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                overflow-x: hidden;
+                padding-top: 20px;
+            }
+            .left {
+                left: 0;
+                background-color: #1da1f2;
+                color: white;
+            }
+            .right {
+                right: 0;
+                background-color: white;
+            }
+            .centered {
+                position: absolute;
+                top: 45%;
+                left: 45%;
+                transform: translate(-50%, -50%);
+                text-align: left;
+            }
+            .info{
+                color: rgb(230, 236, 240);
+                font-weight: 400;
+            }
+            .container {
+                line-height: 20px;
+                display: flex;
+            }
+            input[type=text], input[type=password] {
+                padding: 13px 12px;
+                margin: 4px 8px;
+                border: 1px solid #ccc;
+            }
+            button{
+                border: 1px solid #1da1f2;
+                border-radius: 50px;
+                padding: 6px 16px;
+                text-align: center;
+                font-size: 16px;
+                cursor: pointer; 
+            }
+            button[type=submit]{
+                background-color: white;
+                color: #1f81be;
+                width: 80px;    
+            }
+            button[type=submit]:hover{
+                background-color: rgb(230, 236, 240);
+            }
+            button[type=reg]{
+                background-color: #1da1f2;
+                width: 350px;
+                color: white; 
+            }
+            button[type=login]{
+                background-color: white;
+                color: #1f81be;
+                width: 350px;    
+            }
+            button[type=reg]:hover{
+                background-color: royalblue;
+            }
+            button[type=login]:hover{
+                background-color: rgb(230, 236, 240);
+            }
