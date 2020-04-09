@@ -28,7 +28,7 @@ def company_all(request):
 
 def company_info(request, company_id):
     try:
-        company = Company.object.get(id = company_id)
+        company = Company.objects.get(id = company_id)
     except Company.DoesNotExist as e:
         return JsonResponse({'error': str(e)})
     return JsonResponse(company.to_json())
